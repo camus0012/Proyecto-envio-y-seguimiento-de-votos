@@ -1,0 +1,90 @@
+body{ 
+            background-color: rgb(154, 192, 223);
+}
+
+h1{color: rgb(14, 38, 148);
+  text-align: center; }
+
+ul{color: rgb(12, 12, 12);}
+
+.color1{color: rgb(14, 38, 148); }
+
+.centrar{
+  display: block;
+  margin: 0 auto;}
+
+.centrar-contenedor{
+  text-align: center; 
+}
+
+.lista {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.margen{
+  margin-top: 5%;
+}
+.img_perfil{
+   
+  max-width: 100%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  height: 20%;
+  display: block;
+  border-radius: 20px;
+}
+
+.img_perfil2{
+   
+  max-width: 100%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 20%;
+  display: block;
+  border-radius: 20px;
+}
+
+.efecto{
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            margin-right: 5px;
+            
+              text-align: center;
+              font-family: 'Oswald', sans-serif;
+              color:   rgb(255, 255, 255);
+             background-color: rgb(14, 38, 148);          
+              border: none;
+              padding: 16px 32px;
+              font-size: 24px;
+              font-weight: bold;
+              position: relative;
+              border-radius: 12px;                                            
+  }
+  .efecto::before {
+              content: "";
+              position: absolute;
+              top: 0;
+              left: 0;
+              z-index: -1;
+              width:  100%;
+              height: 100%;
+              background: linear-gradient(
+                          45deg, rgb(26, 166, 201), rgb(0, 47, 255), rgb(40, 181, 216),rgb(45, 179, 212),rgb(0, 47, 255),
+                          rgb(26, 166, 201), rgb(0, 47, 255), rgb(54, 197, 233)
+              );
+              background-size: 800%;
+              border-radius: 10px;
+              filter: blur(8px);
+              animation: glowing 20s linear infinite;
+  }
+  @keyframes glowing{ 0%{background-position: 0 0;}50%
+  {background-position: 400% 0;}100%{background-position: 0 0;}}

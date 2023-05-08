@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            
+    <title>Formulario para enviar DNI a Firebase</title>
+    <link rel="stylesheet" href="estilos/estilos.css">
+    <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-database.js"></script>
+    <script>
+      var firebaseConfig = {
+        apiKey: "AIzaSyBUFio2rtPNAgZzeBD-tOsl02YDw4JLkI8",
+        authDomain: "almacenamiento-c9005.firebaseapp.com",
+        projectId: "almacenamiento-c9005",
+        storageBucket: "almacenamiento-c9005.appspot.com",
+        messagingSenderId: "914137989689",
+        appId: "1:914137989689:web:4d42d35387d7332ad103e8"
+      };
+      firebase.initializeApp(firebaseConfig);
+      
+      function enviarDatos(event) {
+        event.preventDefault();
+        var dni = document.getElementById("dni").value;
+        firebase.database().ref("dnis").push().set({
+          dni: dni
+        });
+        document.getElementById("formulario").reset();
+      }
+    </script>
+</head>
+<body>
+
+  <div>
+    <img class="img_perfil" src="imagenes/perfil.jpg" alt="Imagen de perfil">
+  </div>
+  
+  <div>
+    <h1>Enviar DNI a Database</h1>
+  </div>
+    
+<div class="centrar-contenedor">
+  <form id="formulario" onsubmit="enviarDatos(event)">
+    <label class="color1" for="dni"> DNI: </label>
+    <input type="text" id="dni" name="dni" required>
+    <button class="efecto" type="submit">Enviar</button>
+  </form>
+</div>
+    
+<div class="centrar-contenedor">
+  <a href="seguimiento.html"><button class="efecto centrar margen">Seguimiento de votos</button></a>
+</div>
+    
+</body>
+</html>
+

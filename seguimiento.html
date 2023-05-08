@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Seguimiento de Realtime Database</title>
+    <link rel="stylesheet" href="estilos/estilos.css">
+    <script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-database.js"></script>
+    <script src="interactividad/interactividad.js"></script>
+   
+  </head>
+  <body onload="eliminarPersonas()">
+
+    <div class="centrar-contenedor">
+      </a>
+    </div>
+    
+    <div>
+      <img class="img_perfil2" src="imagenes/perfil2.jpg" alt="Imagen de perfil">
+    </div>
+
+    <div>
+      <h1>Lista de personas faltantes</h1>
+    </div>
+ 
+    <div class="centrar-contenedor">
+      <a href="seguimiento.html"><button class="efecto centrar">Actualizar lista</button></a>
+      <a href="index.html"><button class="efecto centrar">Inicio</button></a>
+    </div>
+    
+    <div class="centrar-contenedor margen">
+      <ul class="lista" id="lista"></ul>
+    </div>
+    
+
+  </body>
+</html>
