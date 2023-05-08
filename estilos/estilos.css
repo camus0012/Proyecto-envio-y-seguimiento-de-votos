@@ -26,6 +26,8 @@ ul{color: rgb(12, 12, 12);}
 .margen{
   margin-top: 5%;
 }
+
+
 .img_perfil{
    
   max-width: 100%;
@@ -46,7 +48,7 @@ ul{color: rgb(12, 12, 12);}
   margin-bottom: 5%;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 60%;
   height: 20%;
   display: block;
   border-radius: 20px;
@@ -88,3 +90,26 @@ ul{color: rgb(12, 12, 12);}
   }
   @keyframes glowing{ 0%{background-position: 0 0;}50%
   {background-position: 400% 0;}100%{background-position: 0 0;}}
+
+
+
+
+  @media (max-width: 768px) {
+
+    button{font-size: 5px;
+      padding: 10px 20px !important; 
+    }
+
+      h1 {
+        font-size: 50px!important;
+      }
+
+      
+    .img_perfil {
+      width: 150px;
+      height: 150px;
+      margin-bottom: 10px;
+    }
+  
+
+  }
