@@ -42,18 +42,7 @@ ul{color: rgb(12, 12, 12);}
   border-radius: 20px;
 }
 
-.img_perfil2{
-   
-  max-width: 100%;
-  margin-top: 5%;
-  margin-bottom: 5%;
-  margin-left: auto;
-  margin-right: auto;
-  width: 60%;
-  height: 20%;
-  display: block;
-  border-radius: 20px;
-}
+
 
 .efecto{
             display: inline-flex;
