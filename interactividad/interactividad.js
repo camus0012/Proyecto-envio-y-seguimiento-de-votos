@@ -12,14 +12,14 @@ var firebaseConfig = {
           
           var listaPersonas = [
 	{ dni: "", nombre: "LISTA LUCHO BRAVO" },
-	{ dni: "16306958", nombre: "marcelo velardez" },
+	{ dni: "12345678", nombre: "marcelo velardez" },
 	{ dni: "22222222", nombre: "Maria Rodriguez" },
 	{ dni: "33333333", nombre: "Pedro Gonzalez" },
 	{ dni: "44444444", nombre: "Ana Martinez" },
 	{ dni: "22222222", nombre: "Maria Rodriguez" },
 	{ dni: "33333333", nombre: "Pedro Gonzalez" },
 	{ dni: "44444444", nombre: "Ana Martinez" },
-	{ dni: "23502413", nombre: "Luisa Lopez" },
+	{ dni: "23502416", nombre: "Luisa Lopez" },
 	{ dni: "22222222", nombre: "Maria Rodriguez" },
 	{ dni: "33333333", nombre: "Pedro Gonzalez" },
 	{ dni: "44444444", nombre: "Ana Martinez" },
