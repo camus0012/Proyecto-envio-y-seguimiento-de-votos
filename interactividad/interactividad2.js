@@ -11,22 +11,21 @@ var firebaseConfig = {
           firebase.initializeApp(firebaseConfig);
           
           var listaPersonas = [
-	{ dni: "", nombre: "LISTA MARTIN FIERRO" },
-	{ dni: "11234567", nombre: "marcelo velardez" },
-	{ dni: "22222222", nombre: "Maria Rodriguez" },
-	{ dni: "33333333", nombre: "Pedro Gonzalez" },
-	{ dni: "44444444", nombre: "Ana Martinez" },
+	{ dni: "", nombre: "Lista Lula" },
+	{ dni: "5920628", nombre: "Alvarez geronima" },
+	{ dni: "4158221", nombre: "Galvan Sunilda" },
+	{ dni: "5920659", nombre: "Romano florecía" },
+	{ dni: "11466110", nombre: "Silva silveria " },
+	{ dni: "22102050", nombre: "Toledo Maria Elena" }
 	
-	{ dni: "22222222", nombre: "Maria Rodriguez" },
-	{ dni: "33333333", nombre: "Pedro Gonzalez" },
-	{ dni: "44444444", nombre: "Ana Martinez" },
-	{ dni: "23502417", nombre: "Luisa Lopez" },
-	
-	{ dni: "22222222", nombre: "Maria Rodriguez" },
-	{ dni: "33333333", nombre: "Pedro Gonzalez" },
-	{ dni: "44444444", nombre: "Ana Martinez" },
-	{ dni: "23502414", nombre: "Luisa Lopez" }
           ];
+
+          
+
+ 
+ 
+
+
           
           function eliminarPersonas() {
 	firebase.database().ref('/dnis').once('value', function(snapshot) {

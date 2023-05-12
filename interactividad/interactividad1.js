@@ -11,23 +11,44 @@ var firebaseConfig = {
           firebase.initializeApp(firebaseConfig);
           
           var listaPersonas = [
-	{ dni: "", nombre: "LISTA JOSÉ MURUA" },
-	{ dni: "12367890", nombre: "marcelo velardez" },
-	{ dni: "22222222", nombre: "Maria Rodriguez" },
-	{ dni: "33333333", nombre: "Pedro Gonzalez" },
-	{ dni: "44444444", nombre: "Ana Martinez" },
+	{ dni: "", nombre: "Lista Guido" },
+	{ dni: "11119915", nombre: "Juan Carlos" },
+	{ dni: "46173010", nombre: "Carlos Carranza" },
+	{ dni: "3028707", nombre: "Blanca Mendoza " },
+	{ dni: "28535474", nombre: "Veleizan Roberto " },
 	
-	{ dni: "22222222", nombre: "Maria Rodriguez" },
-	{ dni: "33333333", nombre: "Pedro Gonzalez" },
-	{ dni: "44444444", nombre: "Ana Martinez" },
-	{ dni: "23502417", nombre: "Luisa Lopez" },
+	{ dni: "36315986", nombre: "Mabel Carranza " },
+	{ dni: "18751861", nombre: "Elva cuellar " },
+	{ dni: "18687349", nombre: "Celeste Carranza " },
+	{ dni: "36924201", nombre: "Analía Carranza " },
 	
-	{ dni: "22222222", nombre: "Maria Rodriguez" },
-	{ dni: "33333333", nombre: "Pedro Gonzalez" },
-	{ dni: "44444444", nombre: "Ana Martinez" },
-	{ dni: "23502414", nombre: "Luisa Lopez" }
+	{ dni: "12115828", nombre: "Elías Carranza" },
+	{ dni: "34606385", nombre: "Judith Resola" },
+	{ dni: "33946292", nombre: "Pedro Carranza" },
+	{ dni: "29817113", nombre: "Marcela Cerrano" },
+	{ dni: "28261536", nombre: "Atilio Carranza " },
+	{ dni: "48210286", nombre: "Melani Carranza " },
+	{ dni: "12410065", nombre: "Carlos Torres " },
+	{ dni: "36315724", nombre: "Ana Torres " }
           ];
           
+           
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
           function eliminarPersonas() {
 	firebase.database().ref('/dnis').once('value', function(snapshot) {
 	  var valoresDB = snapshot.val();
