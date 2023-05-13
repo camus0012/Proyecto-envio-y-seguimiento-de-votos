@@ -84,7 +84,7 @@ var firebaseConfig = {
 	{ dni: "23795314", nombre: "sandez silva" },
 	{ dni: "39675653", nombre: "veleizan Carlos" },
 	{ dni: "18051803", nombre: "veleizan Carlos" },
-	{ dni: "33.249181", nombre: "lisarraga gerardo " }
+	{ dni: "33249181", nombre: "lisarraga gerardo " }
 	
            
 
