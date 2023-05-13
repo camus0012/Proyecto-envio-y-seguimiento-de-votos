@@ -68,9 +68,13 @@ var firebaseConfig = {
 	{ dni: "32793567", nombre: "Cristian Enríquez " },
 	{ dni: "20124903", nombre: "Blanca Jiménez " },
 	{ dni: "29294473", nombre: "Soledad Jauregui " },
+	{ dni: "43438292", nombre: "Karen Olisberg" },
+	{ dni: "28712203", nombre: "Verónica Sarmiento " },
 	{ dni: "45766384", nombre: "Antonella Enriquez " }
            ];
            
+            
+
            
           
           function eliminarPersonas() {

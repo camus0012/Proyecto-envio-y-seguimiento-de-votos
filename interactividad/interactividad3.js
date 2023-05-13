@@ -46,7 +46,7 @@ var firebaseConfig = {
 	{ dni: "37745244", nombre: "Juarez Juan Hector" },
 	{ dni: "5920602", nombre: "Soria Brigida Elvira " },
 	{ dni: "3740942", nombre: "Borges Esther del Valle" },
-	{ dni: "45113810", nombre: " Montellano Hugo Leonel " },
+	{ dni: "45113810", nombre: "Montellano Hugo Leonel " },
 	{ dni: "28611870", nombre: "Beron Marcos Antonio Saba" },
 	{ dni: "46232201", nombre: "Beron Galvan Melani Priscila " }
 	
